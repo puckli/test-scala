@@ -30,3 +30,7 @@ target/
 .DS_Store
 Thumbs.db
 /bin/
+
+
+#scala
+.cache-main
