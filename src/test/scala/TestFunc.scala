@@ -16,6 +16,7 @@ object TestFunc {
   def test(s : String){
     for(ss <- s){
       println(ss.toByte)
+      
     }
   }
 }
