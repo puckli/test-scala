@@ -2,10 +2,10 @@ package test
 
 object Test {
   def main(args: Array[String]): Unit = {
-    println("Hello World!")
-    println
-    
-    test();
+    val s = 'aSymbol
+    println(s.name)
+   
+    println()
    }
   
 

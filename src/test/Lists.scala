@@ -16,10 +16,15 @@ object Lists {
     println(yu._3)
     
     
+    println(Lists.out)
     
     
-    
+    println( List(1,2) == List(1,2)) // true  scala 将转换为调用equals
+    println( List(1,2) eq List(1,2)) // false  eq等于java里的==
+    println(List(1,2) equals List(1,2))
     
   }
+  
+  def out={"singleton?" + this}
   
 }
